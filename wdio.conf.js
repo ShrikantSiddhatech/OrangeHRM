@@ -1,4 +1,19 @@
 exports.config = {
+
+    // before: async function () {
+    //     browser.url('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
+    //     browser.addCommand('login', async function(username, password) {
+    //         await browser.maximizeWindow();
+    //         const usernameField = await $("//input[@name='username']");
+    //         const passwordField = await $("//input[@name='password']");
+    //         const loginButton = await $("//button[@type='submit']");
+    
+    //         await usernameField.setValue(username);
+    //         await passwordField.setValue(password);
+    //         await loginButton.click();
+    //     });
+    // },
+
     runner: 'local',
   
     specs: [
