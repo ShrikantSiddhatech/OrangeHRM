@@ -27,9 +27,10 @@ exports.config = {
     maxInstances: 10,
 
     capabilities: [
-        {maxInstances: 1,browserName: 'chrome'}
+        {maxInstances: 1, browserName: 'chrome', args: ['--headless', '--disable-gpu', '--no-sandbox', '--disable-dev-shm-usage']}
         //,{maxInstances: 1,browserName: 'MicrosoftEdge'}, 
         //{maxInstances: 1, browserName: 'safari',}
+        
     ],
 
     
