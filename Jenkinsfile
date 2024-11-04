@@ -19,7 +19,7 @@ pipeline {
             }
         }
 
-        stage('Run WebdriverIO Tests') {
+        stage('Run Test') {
             steps {
                 sh 'npx wdio --spec ./test/specs/addEmployee.e2e.js'
             }
