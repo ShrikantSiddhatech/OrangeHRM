@@ -1,0 +1,10 @@
+{
+   "credentials": [{"username":"Admin", "password":"admin123"}],
+   
+   "employees": [{"firstName": "Srikanth", "lastName": "Pedalli", "fullName": "Srikanth Pedalli", "id": "EMP001"}],
+   
+   "leaveRequests": [{ "leaveType": "CAN - FMLA", "fromDate": "2024-10-28", "toDate": "2024-10-28"}]
+}
+
+
+  
